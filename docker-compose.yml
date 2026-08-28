@@ -1,0 +1,7 @@
+services:
+  vector-app:
+    build: .
+    container_name: cross_stack_vector_engine
+    ports:
+      - "8080:8080"
+    restart: unless-stopped

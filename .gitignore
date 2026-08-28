@@ -1,0 +1,6 @@
+*.o
+*.db
+*.log
+c_reader
+run/
+__pycache__/
